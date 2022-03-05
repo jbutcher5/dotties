@@ -1,0 +1,32 @@
+seperator = " "
+
+[[module]]
+prefix = "爵 "
+command = "ghstat -u KJ002 -k blog"
+update = false
+
+[[module]]
+prefix = " "
+command = "uname -r"
+update = false
+
+[[module]]
+prefix = " "
+built_in = "date" 
+delay = 43200000
+
+[[module]]
+prefix = " "
+built_in = "time"
+
+[[module]]
+prefix = " "
+built_in = "uptime"
+
+[[module]]
+prefix = " "
+built_in = "cpu"
+
+[[module]]
+prefix = " "
+built_in = "mem"

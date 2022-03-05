@@ -1,0 +1,27 @@
+2022/03/05-14:57:23.924 7228 Reusing MANIFEST /home/james/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/03/05-14:57:23.925 7228 Recovering log #1994
+2022/03/05-14:57:23.925 7228 Reusing old log /home/james/.config/discord/Local Storage/leveldb/001994.log 
+2022/03/05-14:58:25.031 7228 Level-0 table #1999: started
+2022/03/05-14:58:25.053 7228 Level-0 table #1999: 27227 bytes OK
+2022/03/05-14:58:25.057 7228 Delete type=0 #1994
+2022/03/05-15:12:25.032 7227 Level-0 table #2001: started
+2022/03/05-15:12:25.037 7227 Level-0 table #2001: 33742 bytes OK
+2022/03/05-15:12:25.041 7227 Delete type=0 #1998
+2022/03/05-15:25:25.031 7227 Level-0 table #2003: started
+2022/03/05-15:25:25.037 7227 Level-0 table #2003: 32840 bytes OK
+2022/03/05-15:25:25.041 7227 Delete type=0 #2000
+2022/03/05-15:38:25.032 7227 Level-0 table #2005: started
+2022/03/05-15:38:25.036 7227 Level-0 table #2005: 33017 bytes OK
+2022/03/05-15:38:25.040 7227 Delete type=0 #2002
+2022/03/05-15:38:25.040 7227 Compacting 4@0 + 1@1 files
+2022/03/05-15:38:25.060 7227 Generated table #2006@0: 160 keys, 426763 bytes
+2022/03/05-15:38:25.060 7227 Compacted 4@0 + 1@1 files => 426763 bytes
+2022/03/05-15:38:25.064 7227 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/03/05-15:38:25.064 7227 Delete type=2 #1996
+2022/03/05-15:38:25.064 7227 Delete type=2 #2005
+2022/03/05-15:38:25.064 7227 Delete type=2 #2003
+2022/03/05-15:38:25.064 7227 Delete type=2 #2001
+2022/03/05-15:38:25.064 7227 Delete type=2 #1999
+2022/03/05-15:51:25.032 7206 Level-0 table #2008: started
+2022/03/05-15:51:25.038 7206 Level-0 table #2008: 33397 bytes OK
+2022/03/05-15:51:25.041 7206 Delete type=0 #2004

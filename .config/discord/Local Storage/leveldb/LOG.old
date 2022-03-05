@@ -1,0 +1,17 @@
+2022/03/05-14:51:01.152 35ae Reusing MANIFEST /home/james/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/03/05-14:51:01.153 35ae Recovering log #1989
+2022/03/05-14:51:01.153 35ae Level-0 table #1992: started
+2022/03/05-14:51:01.178 35ae Level-0 table #1992: 33969 bytes OK
+2022/03/05-14:51:01.182 35ae Delete type=0 #1989
+2022/03/05-14:52:02.370 3651 Level-0 table #1995: started
+2022/03/05-14:52:02.375 3651 Level-0 table #1995: 27434 bytes OK
+2022/03/05-14:52:02.379 3651 Delete type=0 #1993
+2022/03/05-14:52:02.379 3651 Compacting 4@0 + 1@1 files
+2022/03/05-14:52:02.404 3651 Generated table #1996@0: 160 keys, 426667 bytes
+2022/03/05-14:52:02.404 3651 Compacted 4@0 + 1@1 files => 426667 bytes
+2022/03/05-14:52:02.409 3651 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/03/05-14:52:02.409 3651 Delete type=2 #1990
+2022/03/05-14:52:02.409 3651 Delete type=2 #1995
+2022/03/05-14:52:02.409 3651 Delete type=2 #1988
+2022/03/05-14:52:02.409 3651 Delete type=2 #1986
+2022/03/05-14:52:02.409 3651 Delete type=2 #1992
