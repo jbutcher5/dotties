@@ -1,0 +1,36 @@
+[character]
+success_symbol = "[λ](bold #eceff4)"
+error_symbol = "[λ](bold #bf616a)"
+
+[username]
+style_user = "#a3be8c"
+
+[git_status]
+style = "bold #b48ead"
+
+[git_branch]
+style = "#81a1c1"
+
+[directory]
+style = "underline #5e81ac"
+
+[package]
+style = "#d08770"
+
+[cmake]
+style = "#bf616a"
+
+[rust]
+style = "#bf616a"
+
+[python]
+style = "#bf616a"
+
+[nim]
+style = "#bf616a"
+
+[nodejs]
+style = "#bf616a"
+
+[cmd_duration]
+style = "#ebcb8b"
