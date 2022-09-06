@@ -39,7 +39,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-vibrant)
+(setq doom-theme 'doom-one)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
@@ -95,32 +95,39 @@
 (setq dashboard-startup-banner "~/.doom.d/black_hole.png")
 (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
 
-;; Goodscroll
+;; Remove some logs
 
-(good-scroll-mode 1)
-
-(setq max-specpdl-size 32000)
-(setq gc-cons-threshold 100000000)
-(setq max-lisp-eval-depth 10000)
-(setq read-process-output-max (* 1024 1024))
 (setq lsp-log-io nil)
+(setq byte-compile-warnings '(cl-functions))
+
+;; Pixel scrolling
+
+(setq pixel-scroll-precision-use-momentum 't)
+(pixel-scroll-mode 1)
+(pixel-scroll-precision-mode 1)
 
 (map! :leader
       "r" #'+hydra/window-nav/body
       )
 
-(global-corfu-mode)
-(add-hook 'eglot-mode-hook #'corfu-mode)
-(add-hook 'corfu-mode-hook #'corfu-doc-mode)
-(setq
-  corfu-cycle t
-  corfu-auto t
-  corfu-quit-no-match 'separator
-  corfu-auto-prefix 1
-  completion-styles '(basic))
+;; Corfu/Eglot
+
+;;(global-corfu-mode)
+;;(add-hook 'eglot-mode-hook #'corfu-mode)
+;;(add-hook 'corfu-mode-hook #'corfu-doc-mode)
+;;(setq
+;;  corfu-cycle t
+;;  corfu-auto t
+;;  corfu-quit-no-match 'separator
+;;  corfu-auto-prefix 1
+;;  completion-styles '(basic))
+
+;; Tree sitter
 
 (global-tree-sitter-mode)
 (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode)
+
+;; Elcord
 
 (require 'elcord)
 (elcord-mode)
