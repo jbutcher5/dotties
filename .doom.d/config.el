@@ -39,9 +39,10 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-one)
+(setq doom-theme 'doom-tomorrow-night)
+(setq doom-font (font-spec :family "JetBrainsMono Nerd Font" :size 14))
 
-;; This determines the style of line numbers in effect. If set to `nil', line
+      ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type 't)
 
@@ -92,19 +93,13 @@
 (setq dashboard-center-content t)
 (setq dashboard-set-heading-icons t)
 (setq dashboard-set-file-icons t)
-(setq dashboard-startup-banner "~/.doom.d/black_hole.png")
+(setq dashboard-startup-banner "~/.doom.d/void-transparent.png")
 (setq initial-buffer-choice (lambda () (get-buffer "*dashboard*")))
 
 ;; Remove some logs
 
 (setq lsp-log-io nil)
 (setq byte-compile-warnings '(cl-functions))
-
-;; Pixel scrolling
-
-(setq pixel-scroll-precision-use-momentum 't)
-(pixel-scroll-mode 1)
-(pixel-scroll-precision-mode 1)
 
 (map! :leader
       "r" #'+hydra/window-nav/body
@@ -126,9 +121,3 @@
 
 (global-tree-sitter-mode)
 (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode)
-
-;; Elcord
-
-(require 'elcord)
-(elcord-mode)
-(setq elcord-editor-icon 'emacs_material_icon)
