@@ -1,0 +1,16 @@
+theme = "hex_lavender"
+
+[editor]
+line-number = "relative"
+idle-timeout = 800
+completion-trigger-len = 3
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.statusline]
+left = ["file-name", "total-line-numbers"]
+center = ["mode"]
+right= ["diagnostics", "spinner"]
