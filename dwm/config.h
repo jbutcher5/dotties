@@ -71,7 +71,7 @@ static const char *dmenucmd[] = {"rofi", "-show", "run", NULL};
 static const char *filebrowsercmd[] = {"rofi", "-show", "filebrowser", NULL};
 static const char *termcmd[] = {"alacritty", NULL};
 
-static const char *emacscmd[] = {"emacs", NULL};
+static const char *emacscmd[] = {"emacsclient", "-nc", NULL};
 static const char *firefoxcmd[] = {"firefox", NULL};
 static const char *flameshotcmd[] = {"flameshot", "launcher", NULL};
 
